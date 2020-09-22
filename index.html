@@ -16,6 +16,17 @@
 
       }
     };
+
+    //功能二
+    function BMI(weight, height) {
+      let pweight = weight
+      let pheight = height * 0.01
+
+      let result = pweight / (Math.pow(pheight, 2)).toFixed(1)
+      return result
+    }
+
+    console.log(BMI(65, 175))
   </script>
 </body>
 
